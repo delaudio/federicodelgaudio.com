@@ -7,6 +7,9 @@ export default {
       fontFamily: {
         sans: ["Inter Variable", "Inter", ...defaultTheme.fontFamily.sans],
       },
+      colors: {
+        'link': '#0000FF',
+      },
     },
   },
   darkMode: "class",
