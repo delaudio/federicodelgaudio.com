@@ -1,20 +1,43 @@
 ---
 import Container from "./Container.astro";
+
+const footerItems = [
+  {
+    title: "instagram",
+    path: "https://www.instagram.com/delaudio",
+  },
+  {
+    title: "github",
+    path: "https://github.com/delaudio",
+  },
+  {
+    title: "linkedin",
+    path: "https://github.com/linkedin",
+  },
+];
 ---
 
 <Container class="w-full">
   <footer class="text-black">
     <div class="grid grid-cols-2 w-full">
       <div class="w-full">
-        <p class="text-sm">
-          Copyright © {new Date().getFullYear()} | Federico Del Gaudio
+        <p>
+          Copyright © {new Date().getFullYear()} | federico del gaudio
         </p>
       </div>
-      <div class="w-full">
-        <p class="text-right text-sm">
-          <a href="/privacy-policy" class="p-0 m-0">Privacy Policy</a>
-        </p>
-      </div>
+      <ul class="w-full text-right flex gap-5 justify-end">
+        {
+          footerItems.map((e) => {
+            return (
+              <li>
+                <a href={e.path} class="p-0 m-0">
+                  {e.title}
+                </a>
+              </li>
+            );
+          })
+        }
+      </ul>
     </div>
   </footer>
 </Container>
