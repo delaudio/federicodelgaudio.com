@@ -1,0 +1,37 @@
+---
+import projects from "@data/projects.json";
+import { formatProjectYear } from "@utils/format";
+---
+
+<table class="mt-10 max-w-full">
+  <thead class="border-b border-black">
+    <tr>
+      <th class="text-left">project</th>
+      <th class="text-left">type</th>
+      <th class="text-left">country</th>
+      <th class="text-left">year</th>
+      <th class="text-left">tech</th>
+      <th class="text-left">company</th>
+      <th class="text-left">role</th>
+      <th class="text-left">url</th>
+    </tr>
+  </thead>
+  <tbody>
+    {
+      projects.map((e) => {
+        return (
+          <tr>
+            <td>{e.title}</td>
+            <td>{e.type}</td>
+            <td>{e.country}</td>
+            <td>{formatProjectYear(e.start_year, e.end_year)}</td>
+            <td>{e.tech}</td>
+            <td>{e.company}</td>
+            <td>{e.role}</td>
+            <td>{e.url && <a href={e.url}>find more</a>}</td>
+          </tr>
+        );
+      })
+    }
+  </tbody>
+</table>
