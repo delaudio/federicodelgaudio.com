@@ -1,15 +1,15 @@
 ---
 import Container from "@components/Container.astro";
 import Layout from "@layouts/Layout.astro";
+import WorkDesktopTable from "@components/WorkDesktopTable.astro";
 ---
 
 <Layout title="Work">
   <Container>
-    <div class="min-h-[calc(100vh-16rem)] flex items-center justify-center">
-      <div class="pt-16 text-center">
-        <h1 class="text-lg lg:text-xl font-bold lg:tracking-tight">
-          Coming soon
-        </h1>
+    <div class="min-h-[calc(100vh-16rem)]">
+      <div class="pt-10">
+        <h1 class="text-lg lg:text-xl font-bold lg:tracking-tight">work</h1>
+        <WorkDesktopTable />
       </div>
     </div>
   </Container>
