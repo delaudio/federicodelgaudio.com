@@ -6,6 +6,6 @@ interface Props {
 const { class: className } = Astro.props;
 ---
 
-<div class:list={["max-w-screen-xl mx-auto px-2", className ?? ""]}>
+<div class:list={["max-w-screen mx-auto px-2 py-2", className ?? ""]}>
   <slot />
 </div>
