@@ -1,4 +1,7 @@
 ---
+import Footer from "@components/Footer.astro";
+import Navbar from "@components/Navbar.astro";
+
 interface Props {
   title: string;
 }
@@ -16,13 +19,26 @@ const { title } = Astro.props;
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
   </head>
-  <body>
-    <slot />
+  <body class="flex flex-col min-h-screen">
+    <Navbar />
+    <main class="flex-1">
+      <slot />
+    </main>
+    <Footer />
   </body>
+  <style is:global>
+    html,
+    body {
+      height: 100%;
+    }
+    html {
+      font-family: system-ui, sans-serif;
+      background: #fff;
+    }
+    /* Improve Page speed */
+    /* https://css-tricks.com/almanac/properties/c/content-visibility/ */
+    img {
+      content-visibility: auto;
+    }
+  </style>
 </html>
-<style is:global>
-  html {
-    font-family: system-ui, sans-serif;
-    background: #fff;
-  }
-</style>
