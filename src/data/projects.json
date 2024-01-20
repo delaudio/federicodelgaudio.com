@@ -1,0 +1,137 @@
+[
+  {
+    "title": "Triennale Milano",
+    "type": "Cultural Institution website",
+    "country": "Italy",
+    "start_year": "2021",
+    "end_year": "2021",
+    "company": "Accurat",
+    "role": "Frontend Developer",
+    "tech": "React, MobX, Prismic",
+    "url": "https://triennale.org/"
+  },
+  {
+    "title": "Treelibrary",
+    "type": "Institutional website, Data Visualization, Data Art",
+    "country": "Saudi Arabia",
+    "start_year": "2021",
+    "end_year": "2024",
+    "company": "Accurat",
+    "role": "Fullstack Development, Tech Lead",
+    "tech": "Next.js, D3.js, Strapi, Typescript, Firebase, Docker",
+    "url": null
+  },
+  {
+    "title": "Laguna~B",
+    "type": "E-commerce",
+    "country": "Italy",
+    "start_year": "2023",
+    "end_year": "2024",
+    "company": "Accurat",
+    "role": "Fullstack Developer, Tech Lead",
+    "tech": "Sveltekit, Shopify, Prismic, Typescript",
+    "url": null
+  },
+  {
+    "title": "RCT",
+    "type": "Data Visualization, Dashboard",
+    "country": "Japan",
+    "start_year": "2021",
+    "end_year": "2021",
+    "company": "Accurat",
+    "role": "Frontend Developer",
+    "tech": "React, D3.js, MobX, Typescript",
+    "url": null
+  },
+  {
+    "title": "Zoom",
+    "type": "Mobile app",
+    "country": "Italy",
+    "start_year": "2023",
+    "end_year": "2024",
+    "company": "Accurat",
+    "role": "Backend Development, Mobile Development",
+    "tech": "Node.js, Typescript, Flutter, Firebase",
+    "url": null
+  },
+  {
+    "title": "CDKL5 Insieme verso la cura",
+    "type": "No profit foundation website",
+    "country": "Italy",
+    "start_year": "2023",
+    "end_year": "2023",
+    "company": "Accurat",
+    "role": "Fullstack Development, Tech Lead",
+    "tech": "Next.js, Typescript, Wordpress",
+    "url": null
+  },
+  {
+    "title": "Ducera Partners website",
+    "type": "Company website",
+    "country": "USA",
+    "start_year": "2023",
+    "end_year": "2023",
+    "company": "Accurat",
+    "role": "Fullstack Developer, Tech Lead",
+    "tech": "Wordpress",
+    "url": null
+  },
+  {
+    "title": "FII Priority Compass Navigator",
+    "type": "Institutional website, Data Visualization",
+    "country": "USA",
+    "start_year": "2023",
+    "end_year": "2023",
+    "company": "Accurat",
+    "role": "Fullstack Developer",
+    "tech": "React, D3.js, Typescript, MobX, pandas",
+    "url": null
+  },
+  {
+    "title": "Strobilo",
+    "tech": "Express, Node.js, Typescript, Redis, SQL, Docker"
+  },
+  {
+    "title": "PNR",
+    "tech": "Sveltekit, Typescript, Strapi, Docker, AWS"
+  },
+  {
+    "title": "CESI",
+    "type": "Internal Dashboard",
+    "tech": "Next.js, Docker"
+  },
+  {
+    "title": "Casappa",
+    "type": "E-commerce",
+    "tech": "React, Docker, Symphony"
+  },
+  {
+    "title": "Melinda & Bill Gates Foundation",
+    "type": "Web AR",
+    "tech": "React, Docker, Symphony"
+  },
+  {
+    "title": "Artpiece",
+    "type": "NFT Art marketplace",
+    "tech": "Laravel, PostgreSQL, Vue.js, AWS"
+  },
+  {
+    "title": "Semsee",
+    "country": "USA",
+    "type": "Internal Dashboard",
+    "tech": "React.js, D3.js, MobX, Typescript, Netlify"
+  },
+  {
+    "title": "Wikimedia Foundation",
+    "country": "USA",
+    "type": "Internal Dashboard",
+    "tech": "React.js, D3.js, MobX, Typescript, Netlify"
+  },
+  {
+    "title": "Discover Forgiveness",
+    "country": "USA",
+    "type": "Internal Dashboard",
+    "company": "Accurat, Pentagram",
+    "tech": "React.js, D3.js, MobX, Typescript, Netlify"
+  }
+]
